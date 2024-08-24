@@ -1,0 +1,114 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 20px; 
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+.image img{
+    width:250px;
+    position:absolute;
+    top:10px;
+    left:1000px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    flex: 1; 
+}
+
+.product-image img {
+    width: 850px;
+    background: none;
+    position:absolute;
+    top:180px;
+    left:80px;
+}
+
+.product-details {
+    max-width: 500px;
+}
+
+.product-details h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.product-details .highlight {
+    color: #ff6347;
+}
+
+.product-details p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ff6347;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+}
+button.buy-now{
+    height:60px;
+}
+button.wishlist {
+    background-color: black;
+    color: white;
+    width:100px;
+    position:absolute;
+    top: 395px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    position: relative;
+    top:240px;
+    left:0;
+    width: 100%;
+    margin:0;
+}
