@@ -54,11 +54,11 @@ nav a {
 }
 
 .product-image img {
-    width: 850px;
+    width: 980px;
     background: none;
     position:absolute;
-    top:180px;
-    left:80px;
+    top:100px;
+    left:0px;
 }
 
 .product-details {
